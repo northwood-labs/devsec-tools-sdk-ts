@@ -28,9 +28,6 @@ const client = new Client();
 
 ### Custom configuration
 
-<details>
-<summary>See example…</summary>
-
 ```typescript
 import { Client, ENDPOINT } from "@northwood-labs/devsec-tools-sdk";
 
@@ -47,12 +44,7 @@ const customClient = new Client({
 });
 ```
 
-</details>
-
 ### Updating configuration at runtime
-
-<details>
-<summary>See example…</summary>
 
 ```typescript
 import { Client, ENDPOINT } from "@northwood-labs/devsec-tools-sdk";
@@ -63,12 +55,7 @@ client.setBaseUrl(ENDPOINT.LOCALDEV);
 client.setTimeoutSeconds(15);
 ```
 
-</details>
-
 ### Making single requests
-
-<details>
-<summary>See example…</summary>
 
 ```typescript
 import { Client, ENDPOINT } from "@northwood-labs/devsec-tools-sdk";
@@ -87,12 +74,7 @@ async function run() {
 run();
 ```
 
-</details>
-
 ### Making parallel/batch requests
-
-<details>
-<summary>See example…</summary>
 
 ```typescript
 import { Client, ENDPOINT } from "@northwood-labs/devsec-tools-sdk";
@@ -114,8 +96,6 @@ async function run() {
 
 run();
 ```
-
-</details>
 
 [async]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function
 [await]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/await
